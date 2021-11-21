@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.clearfix ::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+}
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-bolt {
+  padding: 15px 0;
+  color: #c0c0c0;
+}
+
+.header a {
+  font-size: 12px;
+  padding: 14px 12px;
+  background-color: #74cfae;
+  color: white;
+}
+
+.title {
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+  padding-top: 250px;
+  text-align: center;
+  color: #74cfae;
+}
+
+.sub-title {
+  font-size: 30px;
+  color: #c0c0c0;
+  padding-top: 20px;
+  padding-bottom: 250px;
+  text-align: center;
+}
+
+.WWCD {
+  background-color: #74cfae;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.WWCD-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.WWCD-sub {
+  font-size: 20px;
+  color: white;
+  padding-top: 35px;
+  text-align: center;
+  line-height: 28px;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.OLW {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.OLW-images>img:not(:nth-child(1),:nth-child(4)) {
+  margin-left: 100px;
+}
+
+.OLW-images>img:nth-child(n+4) {
+  margin-top: 80px;
+  margin-bottom: 90px;
+}
+
+.OLW-images img {
+  opacity: 0.7;
+}
+
+.OLW-images img:hover{
+  transition: 0.3s;
+  opacity: 1;
+}
+
+.OLW-sub {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+}
+
+.OLW-text {
+  margin-bottom: 70px;
+  line-height: 26px;
+}
+
+.OLW-sub a {
+  background-color: #74cfae;
+  font-size: 12px;
+  padding: 14px 20px;
+  color: white;
+  margin-left: 90px;
+}
+
+.OSS {
+  background-color: #4e4e4e;
+  width: 100%;
+}
+
+h4 {
+  font-size: 24px;
+  padding-top: 70px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+
+.image {
+  display: inline-block;
+  text-align: center;
+  margin-left: 180px;
+  white-space: nowrap;
+  margin-bottom: 100px;
+}
+
+.java {
+  margin-left: 0;
+}
+
+.image p {
+  margin-top: 20px;
+  color: white;
+}
+
+nav {
+  background-color: #f2f2f2;
+}
+
+.SNS-box {
+  width: 100%;
+}
+
+.SNS-main {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.SNS-main a {
+  width: 185px;
+  padding: 30px;
+  color: #74cfae;
+  text-align: center;
+}
+
+.SNS-main a:hover {
+  background-color: white;
+  transition: color 0.5s;
+}
+
+.size {
+  font-size: 4em;
+  width: 185px;
+}
+
+.footer {
+  background-color: #74cfae;
+}
+
+.bottom {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  color: white;
+  text-align: end;
+}
+
