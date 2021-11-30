@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body {
+.all-contents {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -24,14 +24,15 @@ body {
 .header-inner {
   display: flex;
   justify-content: space-between;
+  padding: 15px 0;
 }
 
 .fa-bolt {
-  padding: 15px 0;
+  font-size: 2.5em;
   color: #c0c0c0;
 }
 
-.header a {
+.header-button {
   font-size: 12px;
   padding: 14px 12px;
   background-color: #74cfae;
@@ -43,10 +44,10 @@ body {
   width: 100%;
 }
 
-h1 {
+.bolt-title {
   font-size: 90px;
   font-weight: 700;
-  padding-top: 250px;
+  padding-top: 320px;
   text-align: center;
   color: #74cfae;
 }
@@ -54,7 +55,7 @@ h1 {
 .sub-title {
   font-size: 30px;
   color: #c0c0c0;
-  padding-top: 20px;
+  margin-top: 20px;
   padding-bottom: 250px;
   text-align: center;
 }
@@ -70,21 +71,30 @@ h1 {
   justify-content: space-between;
 }
 
-h2 {
+.WWCD-box {
+  padding-top: 20px;
+}
+
+.WWCD-title {
   font-size: 24px;
   color: white;
   text-align: center;
 }
 
+.WWCD-box {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .WWCD-sub {
   font-size: 20px;
   color: white;
-  padding-top: 35px;
+  margin-top: 35px;
   text-align: center;
   line-height: 28px;
 }
 
-h3 {
+.OLW-title {
   font-size: 24px;
   text-align: center;
   padding-top: 60px;
@@ -96,20 +106,24 @@ h3 {
   background-color: #f2f2f2;
 }
 
-.OLW-images>img:not(:nth-child(1),:nth-child(4)) {
-  margin-left: 100px;
+.OLW-content {
+  display: inline-block;
 }
 
-.OLW-images>img:nth-child(n+4) {
+.OLW-content:nth-child(n+4) {
   margin-top: 80px;
   margin-bottom: 90px;
 }
 
-.OLW-images img {
+.OLW-content:not(:nth-child(1),:nth-child(4)) {
+  margin-left: 100px;
+}
+
+.OLW-content img {
   opacity: 0.7;
 }
 
-.OLW-images img:hover{
+.OLW-content img:hover{
   transition: 0.3s;
   opacity: 1;
 }
@@ -126,7 +140,7 @@ h3 {
   line-height: 26px;
 }
 
-.OLW-sub a {
+.OLW-button {
   background-color: #74cfae;
   font-size: 12px;
   padding: 14px 20px;
@@ -139,7 +153,7 @@ h3 {
   width: 100%;
 }
 
-h4 {
+.OSS-title {
   font-size: 24px;
   padding-top: 70px;
   margin-bottom: 50px;
@@ -159,17 +173,14 @@ h4 {
   margin-left: 0;
 }
 
-.image p {
+.image-text {
   margin-top: 20px;
   color: white;
 }
 
-nav {
-  background-color: #f2f2f2;
-}
-
 .SNS-box {
   width: 100%;
+  background-color: #f2f2f2;
 }
 
 .SNS-main {
@@ -179,21 +190,20 @@ nav {
   padding-bottom: 200px;
 }
 
-.SNS-main a {
+.SNS-content {
   width: 185px;
-  padding: 30px;
+  padding: 25px 0;
   color: #74cfae;
   text-align: center;
 }
 
-.SNS-main a:hover {
+.SNS-content:hover {
   background-color: white;
   transition: color 0.5s;
 }
 
 .size {
-  font-size: 4em;
-  width: 185px;
+  font-size: 2.5em;
 }
 
 .footer {
