@@ -14,6 +14,7 @@
   width: 100%;
   background-color: white;
   position: fixed;
+  z-index: 1;
 }
 
 .inner {
@@ -37,6 +38,11 @@
   padding: 14px 12px;
   background-color: #74cfae;
   color: white;
+}
+
+.header-button:hover {
+  transition: 0.3s;
+  color: #333;
 }
 
 .title {
@@ -148,6 +154,11 @@
   margin-left: 90px;
 }
 
+.OLW-button:hover {
+  transition: 0.3s;
+  color: #333;
+}
+
 .OSS {
   background-color: #4e4e4e;
   width: 100%;
@@ -161,11 +172,15 @@
   color: white;
 }
 
+.OSS-images {
+  display: flex;
+  justify-content: space-between;
+}
+
 .image {
   display: inline-block;
   text-align: center;
   margin-left: 180px;
-  white-space: nowrap;
   margin-bottom: 100px;
 }
 
