@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 .all-contents {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 .clearfix ::after {
@@ -38,10 +39,11 @@
   padding: 14px 12px;
   background-color: #74cfae;
   color: white;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .header-button:hover {
-  transition: 0.3s;
   color: #333;
 }
 
@@ -56,6 +58,7 @@
   padding-top: 320px;
   text-align: center;
   color: #74cfae;
+  font-family: 'Raleway', sans-serif;
 }
 
 .sub-title {
@@ -64,6 +67,7 @@
   margin-top: 20px;
   padding-bottom: 250px;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .WWCD {
@@ -85,6 +89,7 @@
   font-size: 24px;
   color: white;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 
 .WWCD-box {
@@ -105,6 +110,7 @@
   text-align: center;
   padding-top: 60px;
   margin-bottom: 40px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .OLW {
@@ -127,10 +133,10 @@
 
 .OLW-content img {
   opacity: 0.7;
+  transition: 0.3s;
 }
 
 .OLW-content img:hover{
-  transition: 0.3s;
   opacity: 1;
 }
 
@@ -152,10 +158,11 @@
   padding: 14px 20px;
   color: white;
   margin-left: 90px;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 .OLW-button:hover {
-  transition: 0.3s;
   color: #333;
 }
 
@@ -170,6 +177,7 @@
   margin-bottom: 50px;
   text-align: center;
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 .OSS-images {
@@ -200,7 +208,7 @@
 
 .SNS-main {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -210,11 +218,11 @@
   padding: 25px 0;
   color: #74cfae;
   text-align: center;
+  transition: color 0.3s;
 }
 
 .SNS-content:hover {
   background-color: white;
-  transition: color 0.5s;
 }
 
 .size {
