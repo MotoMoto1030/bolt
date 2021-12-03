@@ -81,10 +81,12 @@
 
 .WWCD-main {
   display: flex;
+  justify-content: space-around;
 }
 
 .WWCD-box {
   padding-top: 20px;
+  width: 55%;
 }
 
 .WWCD-title {
@@ -95,13 +97,11 @@
 }
 
 .WWCD-sub {
-  width: 75%;
   font-size: 20px;
   color: white;
   margin-top: 35px;
   text-align: center;
   line-height: 28px;
-  margin-left: 100px;
 }
 
 .OLW-title {
@@ -152,7 +152,7 @@
 }
 
 .OLW-text {
-  width: 40%;
+  width: 50%;
   line-height: 26px;
 }
 
@@ -186,7 +186,7 @@
 
 .OSS-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 50px;
 }
 
@@ -196,7 +196,7 @@
   margin-left: 180px;
 }
 
-.java {
+.image:first-child {
   margin-left: 0;
 }
 
