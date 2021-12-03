@@ -5,7 +5,7 @@
   font-weight: 300;
 }
 
-.clearfix ::after {
+.clearfix::after {
   content: "";
   display: block;
   clear: both;
@@ -52,10 +52,14 @@
   width: 100%;
 }
 
+.title-inner {
+  padding-top: 320px;
+  padding-bottom: 250px;
+}
+
 .bolt-title {
   font-size: 90px;
   font-weight: 700;
-  padding-top: 320px;
   text-align: center;
   color: #74cfae;
   font-family: 'Raleway', sans-serif;
@@ -65,7 +69,6 @@
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
-  padding-bottom: 250px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
@@ -78,7 +81,6 @@
 
 .WWCD-main {
   display: flex;
-  justify-content: space-around;
 }
 
 .WWCD-box {
@@ -92,43 +94,44 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.WWCD-box {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 .WWCD-sub {
+  width: 75%;
   font-size: 20px;
   color: white;
   margin-top: 35px;
   text-align: center;
   line-height: 28px;
+  margin-left: 100px;
 }
 
 .OLW-title {
   font-size: 24px;
   text-align: center;
   padding-top: 60px;
-  margin-bottom: 40px;
   font-family: 'Raleway', sans-serif;
+}
+
+.OLW-images {
+  margin-top: 40px;
 }
 
 .OLW {
   width: 100%;
   background-color: #f2f2f2;
+  padding-bottom: 70px;
 }
 
 .OLW-content {
-  display: inline-block;
+  float: left;
+  margin-left: 100px;
+}
+
+.OLW-content:nth-child(1),:nth-child(4) {
+  margin-left: 0;
 }
 
 .OLW-content:nth-child(n+4) {
   margin-top: 80px;
-  margin-bottom: 90px;
-}
-
-.OLW-content:not(:nth-child(1),:nth-child(4)) {
-  margin-left: 100px;
 }
 
 .OLW-content img {
@@ -145,10 +148,11 @@
   justify-content: center;
   align-items: flex-start;
   text-align: center;
+  margin-top: 90px;
 }
 
 .OLW-text {
-  margin-bottom: 70px;
+  width: 40%;
   line-height: 26px;
 }
 
@@ -169,12 +173,12 @@
 .OSS {
   background-color: #4e4e4e;
   width: 100%;
+  padding-top: 70px;
+  padding-bottom: 100px;
 }
 
 .OSS-title {
   font-size: 24px;
-  padding-top: 70px;
-  margin-bottom: 50px;
   text-align: center;
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -183,13 +187,13 @@
 .OSS-images {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .image {
   display: inline-block;
   text-align: center;
   margin-left: 180px;
-  margin-bottom: 100px;
 }
 
 .java {
