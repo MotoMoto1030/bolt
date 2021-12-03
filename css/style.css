@@ -78,7 +78,7 @@
 
 .WWCD-main {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .WWCD-box {
@@ -218,7 +218,7 @@
   padding: 25px 0;
   color: #74cfae;
   text-align: center;
-  transition: color 0.3s;
+  transition: 0.3s;
 }
 
 .SNS-content:hover {
