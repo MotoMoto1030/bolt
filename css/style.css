@@ -50,9 +50,6 @@
 .title {
   background-color: #f2f2f2;
   width: 100%;
-}
-
-.title-inner {
   padding-top: 320px;
   padding-bottom: 250px;
 }
@@ -104,21 +101,21 @@
   line-height: 28px;
 }
 
+.OLW {
+  width: 100%;
+  background-color: #f2f2f2;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
 .OLW-title {
   font-size: 24px;
   text-align: center;
-  padding-top: 60px;
   font-family: 'Raleway', sans-serif;
 }
 
 .OLW-images {
   margin-top: 40px;
-}
-
-.OLW {
-  width: 100%;
-  background-color: #f2f2f2;
-  padding-bottom: 70px;
 }
 
 .OLW-content {
@@ -208,13 +205,13 @@
 .SNS-box {
   width: 100%;
   background-color: #f2f2f2;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .SNS-main {
   display: flex;
   justify-content: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .SNS-content {
