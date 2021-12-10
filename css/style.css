@@ -264,7 +264,7 @@
   .WWCD-box {
     padding: 0;
     margin: 20px auto 0;
-    width: 97%;
+    width: 100%;
   }
 
   .OLW-content img {
@@ -365,10 +365,6 @@
   .WWCD img {
     margin: 0 auto;
     width: 50%;
-  }
-
-  .WWCD-box {
-    width: 97%;
   }
 
   .SNS-box {
