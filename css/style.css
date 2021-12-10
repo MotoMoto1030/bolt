@@ -66,10 +66,6 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.br-sp {
-  display: none;
-}
-
 .sub-title {
   font-size: 30px;
   color: #c0c0c0;
@@ -268,10 +264,7 @@
   .WWCD-box {
     padding: 0;
     margin: 20px auto 0;
-  }
-
-  .OLW-content {
-    margin: 0 auto;
+    width: 97%;
   }
 
   .OLW-content img {
@@ -279,24 +272,17 @@
   }
 
   .OLW-images {
+    text-align: center;
     display: flex;
     flex-direction: column;
   }
 
-  .OLW-content:nth-child(3n+1) {
-    margin: 0 auto;
+  .OLW-content:nth-child(n) {
+    margin: 0;
   }
 
-  .OLW-content:nth-child(n+5) {
-    margin-top: 0;
-  }
-
-  .OLW-content:nth-child(3n+1) {
+  .OLW-content:nth-child(3n+4) {
     margin-top: 80px;
-  }
-
-  .OLW-content:first-child {
-    margin: 0 auto;
   }
 
   .OLW-sub {
@@ -371,13 +357,18 @@
     padding: 232px 0 130px;
   }
 
-  .br-sp {
-    display: block;
-  }
-
   .sub-title {
     margin-top: 20px;
     font-size: 30px;
+  }
+
+  .WWCD img {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .WWCD-box {
+    width: 97%;
   }
 
   .SNS-box {
